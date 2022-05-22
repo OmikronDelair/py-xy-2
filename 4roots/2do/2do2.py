@@ -14,3 +14,12 @@
 # it will produce 100 points
 # [1.0, 1.1, ... , 9.9, 10]
 #
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def graficar(a,b,c):
+    list = np.arange(a,b+.1,c)
+    plt.plot(list,list)
+    
+graficar(1,10,.1)
